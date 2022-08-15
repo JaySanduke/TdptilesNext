@@ -5,7 +5,7 @@ import internship from "assets/img/home/internship.svg";
 import learning from "assets/img/home/learning.svg";
 import educationi from "assets/img/home/education.svg";
 import DocumentMeta from "react-document-meta";
-import "assets/css/style.css";
+import "../assets/css/style.css";
 import "aos/dist/aos.css";
 import AuthNavbar from "components/Navbars/AuthNavbar.js";
 import AuthFooter from "components/Footers/AuthFooter.js";
