@@ -1,0 +1,78 @@
+---------------------- Admin -------------------------
+
+admin dashboard - ✔ Visible and working
+user search - ✔ Visible and working
+block function working properly
+quiz - ✔ Visible and working
+edit quiz - ✔ Visible and working
+task -  ✔ Visible and working
+edit task - ✔ Visible and working
+add Classroom - ✔ Visible and working
+edit Classroom - ✔ Visible and working 
+Classroom block working properly
+create Classroom - ✔ Visible and working
+create course - ✔ Visible and working
+update Classroom - ✔ Visible and working
+course details - ✔ Visible and working
+course block working properly
+edit course - ✔ Visible and working
+mentors - ✔ Visible and working
+create workshop - ✔ Visible and working
+edit workshop - ✔ Visible and working
+workshops - ✔ Visible and working (same workshop section as in mentor)
+
+-------------------------xxx--------------------------
+
+------------------- Mentor ---------------------------
+
+dashboard - ✔ Visible and working
+error on dashboard page --> Classroom.map
+mentor profile - ✔ Visible and working
+mentor profile - edit - ✔ Visible and working
+Classrooms - ✔ Visible and working
+error on Classroom page
+specific Classroom - ✔ Visible and working
+error on opening specific Classroom page --> Classroom.map 
+Classrooms chattroom - ✔ working
+create Classroom - ✖ not working --> failed to compile content.json not found
+task - ✔ Visible and working
+create task - ✔ Visible and working
+quizs - ✔ Visible and working
+create quiz - ✔ Visible and working
+update quiz - ✔ Visible and working
+
+workshops - ✔ Visible and working
+[-------------Workshop------------
+Workshop - ✔ Visible and working
+edit Workshop - not working
+quizes - ✔ Visible and working
+create quiz - ✔ Visible and working
+update quiz - ✔ Visible and working
+task - ✔ Visible and working
+create task - ✔ Visible and working
+edit task - ✔ Visible and working (only admin allowed)
+task submitted - not working
+calender - ✔ Visible and working
+schedule meet - ✔ Visible and working
+-------------Workshop End------------]
+
+create workshop - ✖ not working --> failed to compile content.json not found
+
+
+-----------------------xxx--------------------------
+
+
+
+------------------------ User ------------------------------
+
+Profile - ✔ Visible and working
+edit profile - problem in updating fields
+tasks - ✔ Visible and working
+quizes - ✖ not visible
+Classroom - ✔ Visible and working
+error on Classroom page --> user.blocked
+Classroom buy --> Invoice Visible --> razorpay model Visible
+Invoices - ✔ Visible
+workshop page - ✔ Visible
+
+---------------------------xxx-------------------------------
