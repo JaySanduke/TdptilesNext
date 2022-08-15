@@ -613,9 +613,9 @@ class Dashboard extends React.Component {
                       }}
                     />
                     <div className="legends" style={{ textAlign: 'center', alignItems: 'center', justifyContent: 'center', marginTop: "40px", paddingTop: '20px', margin: 'auto', width: '30%' }}>
-                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div class="circle" style={{ height: '15px', width: '15px', backgroundColor: '#039BE5', borderRadius: '50%', marginRight: '20px' }}></div><h3>Classes</h3></div>
-                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div class="circle" style={{ height: '15px', width: '15px', backgroundColor: '#33B679', borderRadius: '50%', marginRight: '20px' }}></div><h3>Task</h3></div>
-                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div class="circle" style={{ height: '15px', width: '15px', backgroundColor: '#D50000', borderRadius: '50%', marginRight: '20px' }}></div><h3>Quiz</h3></div>
+                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div className="circle" style={{ height: '15px', width: '15px', backgroundColor: '#039BE5', borderRadius: '50%', marginRight: '20px' }}></div><h3>Classes</h3></div>
+                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div className="circle" style={{ height: '15px', width: '15px', backgroundColor: '#33B679', borderRadius: '50%', marginRight: '20px' }}></div><h3>Task</h3></div>
+                      <div style={{ display: 'flex', alignItems: 'center', margin: 'auto' }}> <div className="circle" style={{ height: '15px', width: '15px', backgroundColor: '#D50000', borderRadius: '50%', marginRight: '20px' }}></div><h3>Quiz</h3></div>
                     </div>
                   </div>
                 </CardBody>

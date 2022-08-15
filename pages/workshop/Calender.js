@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     Button,
     Card,
@@ -34,7 +34,6 @@ import FullCalendar from "../../components/fullCalendarAdmin";
 // import 'popper.js/dist/umd/popper.min.js'
 //import $ from 'jquery';
 import Workshop from "layouts/Workshop.js";
-import { useState } from 'react';
 import Header from "components/Headers/admin.js";
 import { useRouter } from 'next/router'
 
@@ -89,10 +88,10 @@ class DemoApp extends React.Component {
                         // var id = currenturlsearch.get("id");
                         let id = localStorage.getItem("w_id");
 
-                        if (typeof window !== "undefined") {
                             if (id === undefined) {
-                                window.location.href = "/";
-                            }
+                                useEffect(() => {
+                                    window.location.href = "/";
+                                });
                         }
                         this.setState({ w_id: id });
                         var index = 0;
@@ -225,9 +224,9 @@ class DemoApp extends React.Component {
                             });
                     }
                     else {
-                        if (typeof window !== "undefined") {
+                        useEffect(() => {
                             window.location.href = "/";
-                        }
+                        });
                     }
                 })
 
